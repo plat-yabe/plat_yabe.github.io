@@ -41,10 +41,6 @@ h6{
   color:#023dff;
 }
 
-.float{
-  float: right;
-  margin-right: 150px;
-}
 /* 共通のアイコンエフェクト */
 .socialEffect__link {
     margin: .3em;
