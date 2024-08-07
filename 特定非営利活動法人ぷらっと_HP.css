@@ -41,6 +41,13 @@ h6{
   color:#023dff;
 }
 
+h9{
+  img{
+    max-width: 900px;
+    height: auto;
+  }
+}
+
 /* 共通のアイコンエフェクト */
 .socialEffect__link {
     margin: .3em;
