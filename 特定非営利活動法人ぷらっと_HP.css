@@ -1,6 +1,6 @@
 header {
-    background: url('kawasemi.jpg')top center / cover no-repeat;
-    display: flex;
+  background: url('kawasemi.jpg')top center / cover no-repeat;
+  display: flex;
 }
 
 a{
@@ -15,23 +15,23 @@ h1{
 
 
 h2{
-    margin: 0;
-    font-size: 20px;
-    font-weight: normal;
-    color:#000000;
+  margin: 0;
+  font-size: 20px;
+  font-weight: normal;
+  color:#000000;
 }
 
 .nav-list-item{
-    display:inline-block;
-    padding: 20px;
+  display:inline-block;
+  padding: 20px;
 }
 
 h3{
-    font-size: 30px;
-    color:#00ff15;
+  font-size: 30px;
+  color:#00ff15;
 }
 h5{
-    font-size: 30px;
+  font-size: 30px;
 }
 
 h6{
@@ -48,116 +48,123 @@ h9{
   }
 }
 
+h10{
+  img{
+    max-width: 750px;
+    height: auto;
+  }
+}
+
 /* 共通のアイコンエフェクト */
 .socialEffect__link {
-    margin: .3em;
-    display: block;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 50%;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    color: #bfbfbf;
-    font-size: 1.6rem;
-    background: rgba(0, 0, 0, 0.795);
-    transition: transform ease-out 0.2s;
-  }
+  margin: .3em;
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #bfbfbf;
+  font-size: 1.6rem;
+  background: rgba(0, 0, 0, 0.795);
+  transition: transform ease-out 0.2s;
+}
   
-  .socialEffect__box li {
-    display: inline-block;
-  }
-  
-  
-  /* インスタ用アイコン設定 */
-  .icon-instagram::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    z-index: -1;
-    transform: scale(0.9);
-  }
-  .fab.fa-instagram {
-    display: inline-block;
-    color: #fff;
-  }
-  .icon-instagram:hover {
-    background: radial-gradient(
-        circle farthest-corner at 32% 106%,
-        rgb(255, 225, 125) 0%,
-        rgb(255, 205, 105) 10%,
-        rgb(250, 145, 55) 28%,
-        rgb(235, 65, 65) 42%,
-        transparent 82%
-      ),
-      linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
-    transform: scale(0.9);
-  }
-  
-  /* フェイスブック用アイコン設定 */
-  .icon-facebook::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    z-index: -1;
-    transform: scale(0.9);
-  }
-  .fab.fa-facebook-f {
-    display: inline-block;
-    color: #fff;
-  }
-  .icon-facebook:hover {
-    background: #3b5998;
-    transform: scale(0.9);
-  }
-  
-  /* ツイッター用アイコン設定 */
-  .icon-twitter::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    z-index: -1;
-    transform: scale(0.9);
-  }
-  .fab.fa-twitter {
-    display: inline-block;
-    color: #fff;
-  }
-  .icon-twitter:hover {
-    background: #00b0ed;
-    transform: scale(0.9);
-  }
+.socialEffect__box li {
+  display: inline-block;
+}
 
-   /* LINE用アイコン設定 */
-  .icon-line::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    z-index: -1;
-    transform: scale(0.9);
-  }
-  .fab.fa-line {
-    display: inline-block;
-    color: #fff;
-  }
-  .icon-line:hover {
-    background: #15ff00;
-    transform: scale(0.9);
-  }
+
+/* インスタ用アイコン設定 */
+.icon-instagram::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-instagram {
+  display: inline-block;
+  color: #fff;
+}
+.icon-instagram:hover {
+  background: radial-gradient(
+      circle farthest-corner at 32% 106%,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%
+    ),
+    linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  transform: scale(0.9);
+}
+
+/* フェイスブック用アイコン設定 */
+.icon-facebook::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-facebook-f {
+  display: inline-block;
+  color: #fff;
+}
+.icon-facebook:hover {
+  background: #3b5998;
+  transform: scale(0.9);
+}
+
+/* ツイッター用アイコン設定 */
+.icon-twitter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-twitter {
+  display: inline-block;
+  color: #fff;
+}
+.icon-twitter:hover {
+  background: #00b0ed;
+  transform: scale(0.9);
+}
+
+  /* LINE用アイコン設定 */
+.icon-line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+}
+.fab.fa-line {
+  display: inline-block;
+  color: #fff;
+}
+.icon-line:hover {
+  background: #15ff00;
+  transform: scale(0.9);
+}
