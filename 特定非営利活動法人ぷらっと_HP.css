@@ -1,6 +1,12 @@
 header {
+  position: fixed;
   background: url('kawasemi.jpg')top center / cover no-repeat;
   display: flex;
+  z-index: 10;
+}
+
+.main {
+  padding-top: 230px; /* ヘッダーの高さと同じ値 */
 }
 
 a{
