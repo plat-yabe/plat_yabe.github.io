@@ -6,7 +6,6 @@ header {
   background: url('kawasemi.jpg')top center / cover no-repeat;
   display: flex;
   z-index: 10;
-  width: 100%;
 }
 
 .main {
